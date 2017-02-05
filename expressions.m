@@ -23,8 +23,8 @@ fprintf('Temperature %.2f Fahrenheit is equal to %.2f Celsius. \n\n', ftemp, cte
 resistor1 = input ('Enter the resistance for the first resistor (R1): ');
 resistor2 = input ('Enter the resistance for the second resistor (R2): ');
 resistor3 = input ('Enter the resistance for the third resistor (R3): ');
-combined_resistance = 1 / ( ( 1/resistor1) + ( 1/resistor2) + ( 1/resistor3) );
-fprintf('The combined resistance RT of these three resistors R1, R2 and R3 in parallel is %f.\n\n', combined_resistance);
+combinedResistance = 1 / ( ( 1/resistor1) + ( 1/resistor2) + ( 1/resistor3) );
+fprintf('The combined resistance RT of these three resistors R1, R2 and R3 in parallel is %f.\n\n', combinedResistance);
 
 
 % In special relativity, the Lorentz factor is a number that describes 
@@ -35,10 +35,10 @@ fprintf('The combined resistance RT of these three resistors R1, R2 and R3 in pa
 % Use 3 X 10^8 m/s for the speed of light, c. Create variables for c and 
 % the speed v and from them a variable lorentz for the Lorentz factor.
 
-relative_vel = input('Enter the relative velocity: ');
+relativeVel = input('Enter the relative velocity: ');
 c = 3e8;
-lorentz = 1 / sqrt(1 - ( relative_vel.^2 / c.^2));
-fprintf('When the relative velocity is %d, the Lorentz factor is %f.\n\n', relative_vel, lorentz);
+lorentz = 1 / sqrt(1 - ( relativeVel.^2 / c.^2));
+fprintf('When the relative velocity is %d, the Lorentz factor is %f.\n\n', relativeVel, lorentz);
 
 
 % An environmental engineer has determined that the cost C of a 
@@ -46,8 +46,8 @@ fprintf('When the relative velocity is %d, the Lorentz factor is %f.\n\n', relat
 % C = 32430 / r + 428pir
 % Create a variable for the radius, and then for the cost.
 
-tank_radius = input('Enter the radius of the tank: ');
-cost = 32430 / tank_radius + 428 * pi * tank_radius;
-fprintf('The cost of a tank that its radius is %.2f is %.2f\n\n', tank_radius, cost);
+tankRadius = input('Enter the radius of the tank: ');
+cost = 32430 / tankRadius + 428 * pi * tankRadius;
+fprintf('The cost of a tank that its radius is %.2f is %.2f\n\n', tankRadius, cost);
 
 
