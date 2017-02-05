@@ -1,7 +1,7 @@
 % Name: R. Guan
 % Email: tianbao971@gmail.com
 % Date: Feb. 4, 2017
-% Description: This program describes some expressions in MATLAB
+% Description: This script describes some expressions in MATLAB
 % Bug: none
 
 
